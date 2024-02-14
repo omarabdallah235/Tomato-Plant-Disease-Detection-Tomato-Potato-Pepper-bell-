@@ -39,7 +39,7 @@ def predict(model, img):
     return predicted_class, confidence
 
 def main():
-    st.title('Tomato Plant Disease Detection (Tomato , Potato , Pepper bell)')
+    st.title('Tomatiki Plant Disease Detection (Tomato , Potato , Pepper bell)')
     
     # Load the model
     model = load_model()
